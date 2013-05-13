@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor21</string>
+   <string name="menu_settings">Settings</string>
+    <string name="lbl_Dealer">Dealer:</string>
+    <string name="lblPlayer">Player:</string>
+    <string name="lblCard1">Card 1:</string>
+    <string name="lblCard2">Card 2:</string>
+    <string name="btnDeal">Deal</string>
+    <string name="btnHit">Hit</string>
+    <string name="btnStick">Stick</string>
+    <string name="btnDouble">Double</string>
+    <string name="btnSplit">Split</string>
+    <string name="chkNoPairs">No Pairs</string>
+    <string name="chkNoSoft">No Soft Hands (No Aces)</string>
+    <string name="lblNoOfDecks">Number of Decks:</string>
+    <string name="dfltNoOfDecks">2</string>
+
+</resources>
