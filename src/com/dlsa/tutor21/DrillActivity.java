@@ -3,6 +3,8 @@ package com.dlsa.tutor21;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class DrillActivity extends Activity {
@@ -19,11 +21,11 @@ public class DrillActivity extends Activity {
 		Card pCard2 = new Card(13,2); //King of Hearts
 		
 		tvDCard = (TextView) findViewById(R.id.txtDealerCard1);
-		tvDCard.setText(dCard.getCard());
+		tvDCard.setText(dCard.toString());
 		tvPCard1 = (TextView) findViewById(R.id.txtPlayerCard1);
-		tvPCard1.setText(pCard1.getCard());
+		tvPCard1.setText(pCard1.toString());
 		tvPCard2 = (TextView) findViewById(R.id.txtPlayerCard2);
-		tvPCard2.setText(pCard2.getCard());
+		tvPCard2.setText(pCard2.toString());
 
 	}
 
@@ -31,6 +33,18 @@ public class DrillActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_drill, menu);
+		
+		final Button doubleButton = (Button) findViewById(R.id.btnDeal);
+		doubleButton.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tvPCard2.setText("You hit the Double button!");
+			}
+		});
+		
+		
+		
+		
+		
 		return true;
 	}
 
