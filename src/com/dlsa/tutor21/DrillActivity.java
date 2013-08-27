@@ -24,8 +24,8 @@ public class DrillActivity extends Activity {
 //		tvDCard.setText(dCard.toString());
 //		tvPCard1 = (TextView) findViewById(R.id.txtPlayerCard1);
 //		tvPCard1.setText(pCard1.toString());
-//		tvPCard2 = (TextView) findViewById(R.id.txtPlayerCard2);
-//		tvPCard2.setText(pCard2.toString());
+		tvPCard2 = (TextView) findViewById(R.id.txtPlayerCard2);
+		tvPCard2.setText("Ace of Spades");
 
 	}
 
@@ -37,7 +37,7 @@ public class DrillActivity extends Activity {
 		final Button doubleButton = (Button) findViewById(R.id.btnDeal);
 		doubleButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-//				tvPCard2.setText("You hit the Double button!");
+				tvPCard2.setText("You hit the Double button!");
 			}
 		});
 		
