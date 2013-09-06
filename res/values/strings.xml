@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Tutor21</string>
-   <string name="menu_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="lblNoOfDecks">Number of Decks:</string>
+    <string name="dfltNoOfDecks">2</string>
     <string name="lbl_Dealer">Dealer:</string>
     <string name="lblPlayer">Player:</string>
     <string name="lblCard1">Card 1:</string>
@@ -12,9 +14,9 @@
     <string name="btnStick">Stick</string>
     <string name="btnDouble">Double</string>
     <string name="btnSplit">Split</string>
-    <string name="chkNoPairs">No Pairs</string>
-    <string name="chkNoSoft">No Soft Hands (No Aces)</string>
-    <string name="lblNoOfDecks">Number of Decks:</string>
-    <string name="dfltNoOfDecks">2</string>
+    <string name="radOnlyPairs">Pairs Only</string>
+    <string name="radOnlySoft">Soft Hands Only (Ace + no Ace)</string>
+    <string name="radOnlyHard">Hard Hands Only (No Aces)</string>
+    <string name="radAllKinds">All Kinds of Hands</string>
 
 </resources>
