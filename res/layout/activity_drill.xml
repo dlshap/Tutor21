@@ -12,6 +12,19 @@
         android:layout_marginTop="8dp" >
 
         <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message will go here"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <TextView
             android:id="@+id/lblDealer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,6 +169,8 @@
             <requestFocus />
         </EditText>
     </LinearLayout>
+    
+    <!-- 
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -186,5 +201,11 @@
             android:layout_height="wrap_content"
             android:text="@string/radAllKinds" />
     </RadioGroup>
+    
+     -->
 
+    <Spinner
+        android:id="@+id/spnStacker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

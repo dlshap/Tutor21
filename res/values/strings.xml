@@ -18,5 +18,11 @@
     <string name="radOnlySoft">Soft Hands Only (Ace + no Ace)</string>
     <string name="radOnlyHard">Hard Hands Only (No Aces)</string>
     <string name="radAllKinds">All Kinds of Hands</string>
+    <string-array name="stacker_array">
+        <item >Pairs Only</item>
+        <item >Soft Hands Only (Ace + no Ace)</item>
+        <item >Hard Hands Only (No Aces)</item>
+        <item >All Kinds of Hands</item>
+    </string-array>
 
 </resources>
